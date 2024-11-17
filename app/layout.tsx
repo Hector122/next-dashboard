@@ -1,6 +1,6 @@
 import "./ui/global.css";
 import { montserrat } from "./ui/fonts";
-import { inter } from "@/app/ui/fonts";
+import { lusitana } from "@/app/ui/fonts";
 
 export default function RootLayout({
   children,
@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${lusitana.className} antialiased`}>
         <h1>This is part of the Layout for all the pages.</h1>
         <div style={{ border: "1px solid #000" }}>{children}</div>
         <footer className="text-center text-sm text-gray-500 p-4">
